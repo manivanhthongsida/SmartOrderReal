@@ -1,0 +1,42 @@
+@charset "UTF-8";
+*{
+	margin : 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Nanum Barun Gothic';
+}
+a {
+	text-decoration-line : none;
+	color : inherit;
+}
+#menuArea {
+	background: #fff200;
+}
+#menuArea ul {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+	width : 80vw;
+	padding: 0;
+	list-style : none;
+	text-align : center;
+	background: #fff200;
+	margin: 0 auto;
+}
+#menuArea li {
+	flex: 1;
+	padding: 10px;
+	min-width : 100px;
+	text-align: center;
+	font-weight: bold;
+}
+#menuArea li:hover{
+	background: #ff7f27;
+}
+h1{
+	text-align: center;
+	margin-top: 200px;
+}
